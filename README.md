@@ -1,10 +1,10 @@
-# 🚀 USTB 抢课神器 (USTB Course Grabber)
+# 🚀 USTB 抢课 (USTB Course Grabber)
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![PySide6](https://img.shields.io/badge/GUI-PySide6-green)](https://doc.qt.io/qtforpython/)
 [![License](https://img.shields.io/badge/license-MIT-yellow)](LICENSE)
 
-专为北京科技大学（USTB）学子打造的跨平台抢课工具。基于 PySide6 开发，内置 Chromium 浏览器内核，支持 Windows 和 macOS 双端运行。
+参照北京科技大学（USTB）教务系选课系统。基于 PySide6 开发，内置 Chromium 浏览器内核，支持 Windows 和 macOS 双端运行。
 
 **主要功能：** 自动同步 Cookie、多课程类型支持（必修/素拓/专拓）、断点续传（自动保存课程数据）、高频自动请求。
 
@@ -70,7 +70,7 @@ python app.py
 **Windows 打包 (生成 .exe):**
 
 ```bash
-pyinstaller --noconsole --onedir --clean --name="USTB抢课神器" app.py
+pyinstaller --noconsole --onedir --clean --name="选课" app.py
 
 ```
 
@@ -92,7 +92,7 @@ pyinstaller --windowed --noconsole --onedir --clean --name="选课" app.py
 
 ---
 
-**Author:** Bear
+**Author:** ss12123
 **Last Update:** 2026-01
 
 ```
