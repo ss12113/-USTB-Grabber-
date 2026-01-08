@@ -55,8 +55,8 @@
 确保安装 Python 3.8+。
 
 ```bash
-# 安装依赖
-pip install PySide6 requests urllib3 pyinstaller
+# 推荐使用清华大学镜像源加速安装
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ### 2. 运行代码
 
